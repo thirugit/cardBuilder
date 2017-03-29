@@ -1,0 +1,238 @@
+#container {
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.wrap {
+    width: 100%;
+}
+.size-half {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+.hcard-label {
+    font-size: 14px;
+    color: #4A5E70;
+    padding-bottom: 4.5px;
+}
+.hcard-preview-label {
+    font-size: 12px;
+    color: #4A5E70;
+}
+.no-padding{
+    padding: 0 !important;
+ }
+.input-box {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #323232;
+    margin-top: 3px;
+    font-size: 18px;
+    height: 42px;
+    line-height: 25.5px;
+    padding: 10.5px 35px 12px 8px;
+    width: 100%;
+}
+.hcard-button {
+    border: none;
+    border-radius: 5px;
+    top: 2px;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px #888888;
+    color: #FFFFFF;
+    margin-top: 25px;
+    font-size: 18px;
+    height: 42px;
+    line-height: 25.5px;
+    width: 100%;
+}
+.fileContainer {
+    border-radius: 5px;
+    display: inherit;
+    box-shadow: 1px 1px 2px #888888;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 32px;
+    align-items: flex-start;
+    background-color: #758E9D;
+}
+
+.fileContainer [type=file] {
+    opacity: 0;
+}
+
+.upload {
+    background: #758E9D;
+}
+.create {
+    background-color: #3FA9E2;
+}
+.full-width {
+    width: 100%;
+    clear: both;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+h1{
+    color: #374D61;
+    margin-bottom: 0;
+}
+.floatleft, .floatright {
+    float:left;
+    width: 50%;
+    background-color: #FFFFFF;
+    height: 700px;
+    box-sizing: border-box;
+}
+.fieldset-label{
+    color: #C6CDD0;
+    padding-bottom: 3px;
+    margin-top: 35px;
+    margin-right: 20px;
+    font-family: Arial;
+    font-size: 11px;
+    border-bottom: solid 1px #eeeeee;
+}
+.fieldset-right{
+    color: #C6CDD0;
+    padding-bottom: 2px;
+    margin-top: 150px;
+    float: right;
+    font-family: Arial;
+    font-size: 16px;
+    margin-right: 40px;
+}
+.img-height {
+    height: 100%;
+    width: 100%;
+}
+.img-preview{
+    background-color: #FFFFFF;
+    float: right;
+    height: 15%;
+    margin-right: 60px;
+    display: inline-block;
+    margin-top: -5.7rem;
+    border: 2px solid #CCCCCC;
+    width: 16%;
+    background-repeat: no-repeat;
+    /* width: 100px; */
+    background-size: contain;
+}
+.card-name-block {
+    background-color: #394F63;
+    height: 100px;
+    clear: both;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.full-detail {
+    width: 100%;
+    border-bottom: solid 1px #eeeeee;
+}
+.one-fifth {
+    width: 16%;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+.four-fifth {
+    width: 80%;
+    display: inline-block;
+    font-size: 20px;
+    word-break: break-word;
+}
+.one-fourth {
+    width: 25%;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 20px;
+    word-break: break-word;
+}
+.one-third {
+    width: 33.5%;
+    display: inline;
+    word-break: break-word;
+}
+.move-down {
+    padding-top: 25px;
+}
+.card-details-block {
+    background-color: #FFFFFF;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 3px 0px #BBBBBB;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.card-name-font {
+    font-size: 20px;
+}
+.card-name {
+    padding-top: 50px;
+    color: #FFFFFF;
+    width: 70%;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+.floatright {
+    background-color: #E7E9EC;
+    width: 50%;
+}
+#clearingdiv {
+    clear: both;
+}
+@media all and (max-width:767px) {
+    #container, .move-down {
+        padding: 0;
+    }
+ .size-half {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  .img-preview {
+    width: 10%;
+    margin-top: -2.7rem;
+    margin-right: 15px;
+  }
+  .floatright, .floatleft {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .fileContainer [type=file] {
+    width: 0px;
+  }
+  .card-name-block {
+    height: 50px;
+  }
+  .card-name {
+    padding-top: 0px;
+  }
+  .fileContainer {
+    width: 100%;
+  }
+  .fieldset-right {
+    margin-top: 10px;
+  }
+  .one-fifth {
+    width: 18%; font-size: 8px;
+  }
+  .card-details-block, .card-name-block {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .four-fifth { display: inline; font-size: 10px; }
+  .one-fourth { font-size: 10px; }
+  .floatright { border: 1px solid #eeeeee; }
+}

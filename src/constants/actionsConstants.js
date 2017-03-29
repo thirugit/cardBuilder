@@ -1,0 +1,2 @@
+export const FIELD_CHANGE = 'FIELD_CHANGE';
+export const IMAGE_PREVIEW = 'IMAGE_PREVIEW';
