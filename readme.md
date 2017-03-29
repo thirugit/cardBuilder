@@ -51,4 +51,5 @@ Note: if test-cover is not working, then Run `npm install babel-cli -g` and re-r
 1. Improve code coverage 
 2. Convert CSS to SASS
 3. Error scenarios
+4. Modularize components
 

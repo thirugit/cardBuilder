@@ -31,9 +31,4 @@ describe('Layout', () => {
   it('should render layout', () => {
     expect(wrapperForm.find('.wrap').length).to.equal(1);
   });
-  // it('should call dispatch action on keydown', () => {
-  //   wrapperForm.find('.pond-grid').simulate('keyDown', { key: 'ArrowLeft', keyCode: 37, which: 37 });
-  //   console.log(wrapperForm.html())
-  //   expect(spy.called).to.be.true;
-  // });
 });
